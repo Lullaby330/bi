@@ -1,5 +1,5 @@
 greeting: "Hey ${username}! 👋 Bot Ini berfungsi untuk membuat group dari foto atau video tanpa harus upload ulang."
-help: 'kirim foto atau video. lalu tekan tombol "Buat Album" dan buat semua file yang Anda kirim sebelumnya macet menjadi album..'
+help: 'kirim foto atau video. lalu tekan tombol "Album" dan buat semua file yang Anda kirim sebelumnya macet menjadi album..'
 settings: 'There are no settings to be made here'
 source: "Repo Bisa Dibeli Dengan Harga 10$ Hubungi @fybadmins"
 keyboard_done: "Album"
