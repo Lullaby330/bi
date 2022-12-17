@@ -1,7 +1,39 @@
+//
+//  Landing pages
+//
+
+const express = require('express');
+const app = express();
+
+app.use(express.static('public'));
+
+app.get("/", function(request, response) {
+  response.sendFile(__dirname + '/index.html');
+});
+
+app.get("/", (request, response) => {
+  response.sendStatus(200);
+});
+
+app.listen(process.env.PORT);
+
+//
+//  Bot libs and config
+//
 const Telegraf = require('telegraf')
 const TelegrafI18n = require('telegraf-i18n')
 const TelegrafLocalSession = require('telegraf-session-local')
 const path = require('path')
+var responseTimer = null
+var fs = require('fs')
+
+// Clear users mediaQueue on bot Reset
+var mySessions = require('./sessions.json')
+mySessions.sessions.forEach((el) => {
+  el.data.mediaQueue = []
+})
+let newJsonFile = JSON.stringify(mySessions)
+fs.writeFileSync('./sessions.json', newJsonFile)
 
 // Prepare i18n
 const i18n = new TelegrafI18n({
