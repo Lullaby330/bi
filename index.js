@@ -127,7 +127,7 @@ bot.hears(TelegrafI18n.match('keyboard_clear'), (ctx) => {
   ctx.session.mediaQueue = []
   return ctx.reply(ctx.i18n.t('queue_cleared'))
 })
-bot.hears(TelegrafI18n.match('keyboard_album'), (ctx) => {
+bot.hears(TelegrafI18n.match('keyboard_donate'), (ctx) => {
   return ctx.reply(ctx.i18n.t('Donate'))
 })
 
