@@ -1,4 +1,4 @@
-greeting: "Hey ${username}! 👋 Bot Ini berfungsi untuk membuat group dari foto atau video tanpa harus upload ulang."
+greeting: "Hey ${username}! 👋 Bot Ini berfungsi untuk membuat group dari foto atau video tanpa harus upload ulang. /Donate for bot service"
 help: 'kirim foto atau video. lalu tekan tombol "Album" dan buat semua file yang Anda kirim sebelumnya macet menjadi album..'
 settings: 'There are no settings to be made here'
 source: "Repo Bisa Dibeli Dengan Harga 10$ Hubungi @fybadmins"
@@ -6,3 +6,4 @@ keyboard_done: "Album"
 keyboard_clear: "Reset"
 not_enough_media_items: "Maaf 🙏, Kamu Harus Mengirim Foto Atau Video Terlebih Dahulu."
 queue_cleared: "Foto & Video Telah Di Reset, Kirim Kembali Foto Atau Videomu."
+donate: "Donate this bot to run everyday, we need 7$ to run server for this bot, contact @,fybadmins for donation"
