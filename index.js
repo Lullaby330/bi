@@ -53,6 +53,10 @@ bot.command('source', ctx => {
   ctx.reply(ctx.i18n.t('source'))
 })
 
+bot.command('donate', ctx => {
+  ctx.reply(ctx.i18n.t('donate'))
+})
+
 // Add album entries
 bot.on('photo', ({ message, session, reply, i18n }) => {
 
