@@ -34,6 +34,7 @@ bot.start((ctx) => {
       keyboard: [
         [{ text: ctx.i18n.t('keyboard_done') }],
         [{ text: ctx.i18n.t('keyboard_clear') }],
+        [{ text: ctx.i18n.t('keyboard_donate') }],
       ],
       one_time_keyboard: true,
       resize_keyboard: true
@@ -125,6 +126,9 @@ bot.hears(TelegrafI18n.match('keyboard_done'), async ({ i18n, reply, replyWithMe
 bot.hears(TelegrafI18n.match('keyboard_clear'), (ctx) => {
   ctx.session.mediaQueue = []
   return ctx.reply(ctx.i18n.t('queue_cleared'))
+})
+bot.hears(TelegrafI18n.match('keyboard_album'), (ctx) => {
+  return ctx.reply(ctx.i18n.t('Donate'))
 })
 
 
