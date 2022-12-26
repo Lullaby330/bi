@@ -1,11 +1,11 @@
-greeting: "Hey ${username}! 👋 Bot Ini berfungsi untuk membuat group dari foto atau video tanpa harus upload ulang. Help us run server by /donate for bot server"
-help: 'kirim foto atau video. lalu tekan tombol "Album", Jika hanya 1 foto/ video yng keluar ulangi dari awal.'
+greeting: "Hey ${username}! 👋 This bot functions to create groups of photos or videos without having to re-upload them. We need Help to run server by /donate for bot server."
+help: 'send photos or videos. then press the "Album" button, if only 1 photo/video comes out, repeat from the beginning.'
 settings: 'There are no settings to be made here'
-source: "Repo Bisa Dibeli Dengan Harga 10$ Hubungi @fybadmins"
+source: "Repo can be purchased at a price 10$ contact @fybadmins"
 keyboard_done: "Album"
 keyboard_clear: "Reset"
 keyboard_donate: "Donate"
-not_enough_media_items: "Maaf 🙏, Kamu Harus Mengirim Foto Atau Video Terlebih Dahulu."
-queue_cleared: "Foto & Video Telah Di Reset, Kirim Kembali Foto Atau Videomu."
+not_enough_media_items: "Sorry 🙏, You Must Send A Photo Or Videos First."
+queue_cleared: "Photos & Videos Has Been Reset, Send Back Your Photos Or Videos."
 donate: "Donate this bot to run everyday, we need 7$ to run server for this bot, contact @fybadmins for donation"
 Donate: "Help us by donating some money fot this bot to run everyday, we need 7$ to run server for this bot, contact @fybadmins for donation"
